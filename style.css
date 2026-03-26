@@ -23,3 +23,8 @@ header {
     50% { transform: scale(1.05); }
     100% { transform: scale(1); }
 }
+/* Error intencional - Color inexistente */
+.oferta-especial {
+    color: super-mega-azul;  /* ¡Esto no existe en CSS! */
+    background-color: rojo;   /* Error: rojo no es un color válido sin # o rgb() */
+}
