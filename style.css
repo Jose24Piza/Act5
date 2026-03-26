@@ -25,6 +25,6 @@ header {
 }
 /* Error intencional - Color inexistente */
 .oferta-especial {
-    color: super-mega-azul;  /* ¡Esto no existe en CSS! */
-    background-color: rojo;   /* Error: rojo no es un color válido sin # o rgb() */
+    color: #ff0000;        /* ✅ Color rojo válido */
+    background-color: #ffcccc;  /* ✅ Fondo rojo claro */
 }
